@@ -1,0 +1,29 @@
+:root {
+    --thm-black: #211F38;
+	--thm-black-rgb: 33, 31, 56;
+	--thm-base: #644EEE;
+	--thm-base-rgb: 100, 78, 238;
+	--thm-text: #737092;
+}
+.home-showcase__top-title{
+	font-family: var(--thm-font);
+	letter-spacing: 0;
+	font-weight: 700;
+}
+
+.home-showcase__title{
+	letter-spacing: 0;
+	font-family: var(--thm-font);
+	font-weight: 800;
+	font-size: 19px;
+}
+.home-showcase__buttons__item {
+	width: 145px;
+	color: #fff;
+}
+.home-showcase .btn-style-one .btn-title{
+	font-family: var(--thm-font);
+	letter-spacing: 0;
+	font-weight: 700;
+	font-size: 15px;
+}

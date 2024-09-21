@@ -1,0 +1,8 @@
+:root {
+    --thm-base: #2398f9;
+    --thm-base-rgb: 35, 152, 249;
+}
+
+.preloader .icon {
+    background-image: url(../../../images/colors/color-9/icons/preloader.png);
+}

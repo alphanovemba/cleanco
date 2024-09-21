@@ -1,0 +1,193 @@
+
+@keyframes rotateMe {
+    from {
+        transform: rotate(0deg) scale(1);
+    }
+    to { 
+        transform: rotate(360deg);
+    }
+}
+@-webkit-keyframes rotateMe {
+    from {
+        transform: rotate(0deg) scale(1);
+    }
+    to { 
+        transform: rotate(360deg);
+    }
+}
+@-moz-keyframes rotateMe {
+    from {
+        transform: rotate(0deg) scale(1);
+    }
+    to { 
+        transform: rotate(360deg);
+    }
+}
+@-o-keyframes rotateMe {
+    from {
+        transform: rotate(0deg) scale(1);
+    }
+    to { 
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes rotateMe {
+    from {
+        transform: rotate(0deg) scale(1);
+    }
+    to { 
+        transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes ScaleMe {
+    0% {
+    transform: scale(1);
+    }
+
+    50% {
+    transform: scale(1.15);
+    }
+
+    100% {
+    transform: scale(1);
+    }
+}
+@-moz-keyframes ScaleMe {
+    0% {
+    transform: scale(1);
+    }
+
+    50% {
+    transform: scale(1.15);
+    }
+
+    100% {
+    transform: scale(1);
+    }
+}
+@-o-keyframes ScaleMe {
+    0% {
+    transform: scale(1);
+    }
+
+    50% {
+    transform: scale(1.15);
+    }
+
+    100% {
+    transform: scale(1);
+    }
+}
+
+@keyframes ScaleMe {
+    0% {
+    transform: scale(1);
+    }
+
+    50% {
+    transform: scale(1.15);
+    }
+
+    100% {
+    transform: scale(1);
+    }
+}
+
+.tri-pattern,
+.circles,
+.circles-two{
+    -webkit-animation-name: rotateMe; 
+    -webkit-animation-duration: 25s; 
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    
+    -moz-animation-name: rotateMe; 
+    -moz-animation-duration: 25s; 
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+    
+    -ms-animation-name: rotateMe; 
+    -ms-animation-duration: 25s; 
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;
+
+    animation-name: rotateMe; 
+    animation-duration: 25s; 
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.dotted-pattern,
+.history-block .image-box:before,
+.featured-section-four .image-box .image:nth-child(3):before{
+    -webkit-animation-name: ScaleMe; 
+    -webkit-animation-duration: 5s; 
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    
+    -moz-animation-name: ScaleMe; 
+    -moz-animation-duration: 5s; 
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+    
+    -ms-animation-name: ScaleMe; 
+    -ms-animation-duration: 5s; 
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;
+
+    animation-name: ScaleMe; 
+    animation-duration: 5s; 
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.circles .c-1,
+.circles-two .c-1{
+    -webkit-animation-name: ScaleMe; 
+    -webkit-animation-duration: 5s; 
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    
+    -moz-animation-name: ScaleMe; 
+    -moz-animation-duration: 5s; 
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+    
+    -ms-animation-name: ScaleMe; 
+    -ms-animation-duration: 5s; 
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;
+
+    animation-name: ScaleMe; 
+    animation-duration: 5s; 
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.circles-two .c-2{
+    -webkit-animation-name: ScaleMe; 
+    -webkit-animation-delay: 3ms; 
+    -webkit-animation-duration: 3s; 
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    
+    -moz-animation-name: ScaleMe; 
+    -moz-animation-delay: 3s; 
+    -moz-animation-duration: 3s; 
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+    
+    -ms-animation-name: ScaleMe; 
+    -ms-animation-delay: 3s; 
+    -ms-animation-duration: 3s; 
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;
+
+    animation-name: ScaleMe; 
+    animation-delay: 3s; 
+    animation-duration: 3s; 
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}

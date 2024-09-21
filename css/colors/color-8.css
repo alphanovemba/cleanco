@@ -1,0 +1,18 @@
+:root {
+    --thm-base: #e43434;
+    --thm-base-rgb: 228, 52, 52;
+}
+
+.preloader .icon {
+    background-image: url(../../../images/colors/color-8/icons/preloader.png);
+}
+
+.scroll-to-top {
+    color: #fff;
+    background-color: var(--thm-black);
+}
+
+.scroll-to-top:hover {
+    background-color: #fff;
+    color: var(--thm-black);
+}

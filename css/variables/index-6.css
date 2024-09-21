@@ -1,0 +1,12 @@
+:root {
+  --thm-font: "Kumbh Sans", sans-serif;
+  --thm-b-font: "Kumbh Sans", sans-serif;
+  --thm-black: #1a3546;
+  --thm-text: #6b7881;
+  --thm-base: #41b974;
+}
+
+
+.scroll-to-top {
+  color: #fff;
+}

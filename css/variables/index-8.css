@@ -1,0 +1,13 @@
+:root {
+	--thm-font: "DM Sans", sans-serif;
+	--thm-b-font: "DM Sans", sans-serif;
+	--thm-black: #182e65;
+	--thm-black-rgb: 24, 46, 101;
+	--thm-text: #7c8498;
+	--thm-base: #ffc001;
+  }
+
+
+  .scroll-to-top {
+	color: var(--thm-black);
+  }

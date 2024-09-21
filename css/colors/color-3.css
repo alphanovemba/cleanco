@@ -1,0 +1,49 @@
+:root {
+  --thm-base: #83dcfa;
+  --thm-base-rgb: 131, 220, 250;
+}
+.preloader .icon {
+  background-image: url(../../../images/colors/color-3/icons/preloader.png);
+}
+
+.main-header .other-links .link-box .link .icon {
+  background-image: url(../../images/colors/color-3/icons/chat-icon.png);
+}
+
+.why-us-section .left-col .image-box::before {
+  background-image: url(../../images/colors/color-3/icons/shape-1.png);
+}
+
+.banner-carousel .slide-item .left-top-line {
+  background-image: url(../../images/colors/color-3/main-slider/left-curve-line.png);
+}
+.trusted-section .col-header .header-inner::before {
+  background-image: url(../../images/colors/color-3/icons/curve-down-left.png);
+}
+.banner-carousel .slide-item .left-top-line {
+  background-image: url(../../images/colors/color-3/main-slider/left-curve-line.png);
+}
+
+.banner-carousel .slide-item .right-bottom-curve {
+  background-image: url(../../images/colors/color-3/main-slider/right-curved-bg.png);
+}
+
+.banner-carousel .slide-item .shape-1 {
+  background-image: url(../../images/colors/color-3/main-slider/b-2-shape-1.png);
+}
+
+.banner-carousel .slide-item .shape-3 {
+  background-image: url(../../images/colors/color-3/main-slider/b-2-shape-3.png);
+}
+
+.banner-carousel .slide-item .shape-4 {
+  background-image: url(../../images/colors/color-3/main-slider/b-2-shape-4.png);
+}
+
+.page-banner .shape-1 {
+  background-image: url(../../images/colors/color-3/background/b-shape-1.png);
+}
+
+.header-style-four .other-links .link-box .link .icon {
+  background-image: url(../../images/colors/color-3/icons/chat-icon-dark.png);
+}

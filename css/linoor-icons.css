@@ -1,0 +1,75 @@
+@font-face {
+  font-family: 'linoor-icon';
+  src: url('../fonts/linoor-icon.eot?vvmfoz');
+  src: url('../fonts/linoor-icon.eot?vvmfoz#iefix') format('embedded-opentype'),
+    url('../fonts/linoor-icon.ttf?vvmfoz') format('truetype'),
+    url('../fonts/linoor-icon.woff?vvmfoz') format('woff'),
+    url('../fonts/linoor-icon.svg?vvmfoz#linoor-icon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="linoor-icon-"],
+[class*=" linoor-icon-"] {
+  /* use !important to prevent issues with browser extensions that change ../fonts */
+  font-family: 'linoor-icon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.linoor-icon-dots-menu:before {
+  content: "\e900";
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.linoor-icon-two-plus:before {
+  content: "\e900";
+}
+.linoor-icon-two-photo-camera:before {
+  content: "\e901";
+}
+.linoor-icon-two-gallery:before {
+  content: "\e902";
+}
+.linoor-icon-two-diaphragm:before {
+  content: "\e903";
+}
+.linoor-icon-two-blur:before {
+  content: "\e904";
+}
+.linoor-icon-two-abstract-christmas-tree:before {
+  content: "\e905";
+}
+.linoor-icon-two-bond:before {
+  content: "\e906";
+}
+.linoor-icon-two-computer-graphic:before {
+  content: "\e907";
+}
+.linoor-icon-two-planning:before {
+  content: "\e908";
+}
+.linoor-icon-two-camera-lens:before {
+  content: "\e909";
+}

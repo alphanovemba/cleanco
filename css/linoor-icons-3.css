@@ -1,0 +1,90 @@
+@font-face {
+  font-family: 'linoor-icon-three';
+  src:  url('../fonts/linoor-icon-three.eot?5nugog');
+  src:  url('../fonts/linoor-icon-three.eot?5nugog#iefix') format('embedded-opentype'),
+    url('../fonts/linoor-icon-three.ttf?5nugog') format('truetype'),
+    url('../fonts/linoor-icon-three.woff?5nugog') format('woff'),
+    url('../fonts/linoor-icon-three.svg?5nugog#linoor-icon-three') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="linoor-icon-three-"], [class*=" linoor-icon-three-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'linoor-icon-three' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.linoor-icon-three-coding:before {
+  content: "\e903";
+}
+.linoor-icon-three-touch:before {
+  content: "\e912";
+}
+.linoor-icon-three-awareness-1:before {
+  content: "\e900";
+}
+.linoor-icon-three-brainstorming-1:before {
+  content: "\e901";
+}
+.linoor-icon-three-bubble-chat-1:before {
+  content: "\e902";
+}
+.linoor-icon-three-complete-1:before {
+  content: "\e904";
+}
+.linoor-icon-three-cup-of-tea-1:before {
+  content: "\e905";
+}
+.linoor-icon-three-email-1:before {
+  content: "\e906";
+}
+.linoor-icon-three-employee-1:before {
+  content: "\e907";
+}
+.linoor-icon-three-location-pin-1:before {
+  content: "\e908";
+}
+.linoor-icon-three-quick-2:before {
+  content: "\e909";
+}
+.linoor-icon-three-rating-1-1:before {
+  content: "\e90a";
+}
+.linoor-icon-three-search:before {
+  content: "\e90b";
+}
+.linoor-icon-three-search-engine-optimisation-1:before {
+  content: "\e90c";
+}
+.linoor-icon-three-software-application-1:before {
+  content: "\e90d";
+}
+.linoor-icon-three-svg-1:before {
+  content: "\e90e";
+}
+.linoor-icon-three-technical-support-1:before {
+  content: "\e90f";
+}
+.linoor-icon-three-telephone-1:before {
+  content: "\e910";
+}
+.linoor-icon-three-time-2:before {
+  content: "\e911";
+}
+.linoor-icon-three-user-1:before {
+  content: "\e913";
+}
+.linoor-icon-three-web-design-1:before {
+  content: "\e914";
+}
