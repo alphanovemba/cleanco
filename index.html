@@ -49,12 +49,13 @@
                   <a href="mailto:hello@cleanco.co" class="link-inverse">hello@cleanco.co</a>
                   <br /> +960 7713444 <br />
                   <nav class="nav social social-white mt-4">
-                    <a href="https://x.com/cleancomv"><i class="uil uil-twitter"></i></a>
-                    <a href="https://www.facebook.com/cleanco.mv"><i class="uil uil-facebook-f"></i></a>
-                    <a href="https://www.tiktok.com/@cleanco.mv"><i class="uil uil-tiktok"></i></a>
-                    <a href="https://www.instagram.com/cleanco.mv/"><i class="uil uil-instagram"></i></a>
+                    <a href="https://x.com/cleancomv" target="_blank"><i class="uil uil-twitter"></i></a>
+                    <a href="https://www.facebook.com/cleanco.mv" target="_blank"><i class="uil uil-facebook-f"></i></a>
+                    <a href="https://www.tiktok.com/@cleanco.mv" target="_blank"><i class="uil uil-tiktok"></i></a>
+                    <a href="https://www.instagram.com/cleanco.mv/" target="_blank"><i
+                        class="uil uil-instagram"></i></a>
                     <a href="tel:+9607713444"><i class="uil uil-phone"></i></a>
-                    <a href="https://wa.link/k8bs9s"><i class="uil uil-whatsapp"></i></a>
+                    <a href="https://wa.link/k8bs9s" target="_blank"><i class="uil uil-whatsapp"></i></a>
                   </nav>
                   <!-- /.social -->
                 </div>
@@ -68,12 +69,10 @@
             <ul class="navbar-nav flex-row align-items-center ms-auto">
               <li class="nav-item">
                 <nav class="nav social social-muted justify-content-end text-end">
-                  <a href="https://x.com/cleancomv"><i class="uil uil-twitter"></i></a>
-                  <a href="https://www.facebook.com/cleanco.mv"><i class="uil uil-facebook-f"></i></a>
-                  <a href="https://www.tiktok.com/@cleanco.mv"><i class="uil uil-tiktok"></i></a>
-                  <a href="https://www.instagram.com/cleanco.mv/"><i class="uil uil-instagram"></i></a>
+                  <a href="https://www.facebook.com/cleanco.mv" target="_blank"><i class="uil uil-facebook-f"></i></a>
+                  <a href="https://www.instagram.com/cleanco.mv/" target="_blank"><i class="uil uil-instagram"></i></a>
                   <a href="tel:+9607713444"><i class="uil uil-phone"></i></a>
-                  <a href="https://wa.link/k8bs9s"><i class="uil uil-whatsapp"></i></a>
+                  <a href="https://wa.link/k8bs9s" target="_blank"><i class="uil uil-whatsapp"></i></a>
                 </nav>
                 <!-- /.social -->
               </li>
@@ -325,8 +324,13 @@
             </div>
             <!-- /.row -->
             <div class="d-flex justify-content-center">
-              <span><a class="btn btn-lg btn-gradient gradient-1 rounded">Download Cleanco</a></span>
+              <span>
+                <a href="https://wa.link/k8bs9s" class="btn btn-lg btn-gradient gradient-1 rounded" target="_blank">
+                  Make a Booking
+                </a>
+              </span>
             </div>
+
           </div>
           <!--/.container -->
         </div>
@@ -367,7 +371,7 @@
         <!-- /.widget -->
       </div>
       <!-- /column -->
-      <div class="col-md-4 col-lg-3">
+      <!-- <div class="col-md-4 col-lg-3">
         <div class="widget">
           <h4 class="widget-title  mb-3">Legal</h4>
           <ul class="list-unstyled text-reset mb-0">
@@ -375,10 +379,10 @@
             <li><a href="#">Terms of Use</a></li>
             <li><a href="#">Dispute Resolution</a></li>
           </ul>
-        </div>
-        <!-- /.widget -->
-      </div>
-      <!-- /column -->
+        </div> -->
+      <!-- /.widget -->
+    </div>
+    <!-- /column -->
     </div>
     <!--/.row -->
     </div>
@@ -391,15 +395,21 @@
   <script src="./assets/js/plugins.js"></script>
   <script src="./assets/js/theme.js"></script>
   <script>
-    // Optional: Smooth scroll behavior for older browsers
-    document.querySelectorAll('nav a').forEach(anchor => {
-      anchor.addEventListener('click', function (e) {
-        e.preventDefault();
-        document.querySelector(this.getAttribute('href')).scrollIntoView({
+    // Optional: Smooth scroll behavior for internal links only
+document.querySelectorAll('nav a').forEach(anchor => {
+  if (anchor.getAttribute('href').startsWith('#')) {
+    anchor.addEventListener('click', function (e) {
+      e.preventDefault();
+      const targetElement = document.querySelector(this.getAttribute('href'));
+      if (targetElement) {
+        targetElement.scrollIntoView({
           behavior: 'smooth'
         });
-      });
+      }
     });
+  }
+});
+
   </script>
 </body>
 
